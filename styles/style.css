@@ -14,6 +14,7 @@ body {
     font-weight: 800;
     text-align: center;
 }
+
 .section-description {
     color: rgba(39, 39, 39, 0.60);
     font-family: Lato;
@@ -22,6 +23,7 @@ body {
     line-height: 30px;
     margin: 20px 0px;
 }
+
 .btn-primary {
     padding: 20px 43px;
     border-radius: 8px;
@@ -63,7 +65,23 @@ body {
     background: rgba(229, 84, 115, 0.05);
     padding: 100px 150px;
 }
-.deal-content{
+
+.deal-content {
     text-align: center;
     width: 500px;
+}
+
+.instagram {
+    text-align: center;
+    margin: 50px 0px;
+}
+.insta-container{
+    display: flex;
+    justify-content: center;
+}
+.insta-container .insta-img {
+    width: 200px;
+    height: 250px;
+    margin: 10px;
+    
 }

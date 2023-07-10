@@ -1,4 +1,52 @@
 /* universal styles */
-*{
+* {
     margin: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn-primary {
+    padding: 20px 43px;
+    border-radius: 8px;
+    background: #E55473;
+    border: none;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* header banner styles */
+.banner {
+    display: flex;
+    background: rgba(229, 84, 115, 0.10);
+    padding: 30px 90px 0px 90px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-content {
+    max-width: 500px;
+}
+
+.banner-content .banner-title {
+    color: #272727;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.banner-content .banner-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 20px 0px;
+}
+
+.banner .banner-image {
+    width: 500px;
 }

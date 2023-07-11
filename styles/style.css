@@ -185,3 +185,19 @@ main section {
     text-decoration-line: underline;
     margin-top: 20px;
 }
+
+.icon-content {
+    display: flex;
+    justify-content: space-around;
+    background: rgba(39, 39, 39, 0.05);
+    padding: 100px 0;
+    margin-top: 130px;
+    text-align: center;
+}
+
+.icon-description {
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 35px;
+}
